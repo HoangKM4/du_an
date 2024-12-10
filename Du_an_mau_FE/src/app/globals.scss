@@ -1,0 +1,161 @@
+::selection {
+  /* Dùng để tô màu khi bôi đen toàn bộ Web */
+  background-color: #2a534f;
+  color: #f3fffe;
+}
+
+body {
+  background: #f3fffe;
+}
+
+section {
+  padding-top: 3%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: #2a534f;
+  opacity: 80%;
+}
+
+.nav-link:hover {
+  color: #f3fffe;
+}
+
+.fs-8 {
+  font-size: small;
+}
+
+.text-green {
+  color: #2a534f;
+}
+
+.bg-green {
+  background-color: #2a534f;
+}
+
+.bg-banner {
+  background-color: #f3fffe;
+}
+
+.btn-green {
+  color: white;
+  border: 1px solid #f3fffe;
+  background-color: #2a534f;
+
+  &:hover {
+    color: #ffeb55;
+    background: #256d67;
+  }
+
+  &:active {
+    color: #ffeb55 !important;
+    background: #2a534f !important;
+  }
+}
+
+.paddingY-3 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.px-10 {
+  padding-right: 12rem !important;
+  padding-left: 12rem !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.shadow-custom {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .25) !important;
+}
+
+.fancy-title {
+  color: #a5a5a5;
+  position: relative;
+  /* display: inline-block;
+  padding: 0 20px; */
+  /* Điều chỉnh khoảng cách từ nội dung đến vạch kẻ */
+}
+
+.fancy-title::before,
+.fancy-title::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  height: 1px;
+  /* Độ rộng của thanh */
+  width: 15%;
+  /* Độ dài của vạch kẻ */
+  background-color: #c8c8c8;
+}
+
+.fancy-title::before {
+  left: 25%;
+  /* Điều chỉnh vị trí vạch kẻ bên trái */
+}
+
+.fancy-title::after {
+  right: 25%;
+  /* Điều chỉnh vị trí vạch kẻ bên phải */
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+  .flower {
+    top: 210px !important;
+    left: -220px !important;
+  }
+}
+
+// @media (min-width:992px) and (max-width:1200px) {
+//   .flower {
+//     top: 200px+(calc(1.375rem + 1.5vw)) !important;
+//     left: -20svw !important;
+//   }
+// }
+
+// @media (max-width:992px) {
+//   .navbar-nav {
+//     .nav-link {
+//       border-bottom: 2px dotted #ffaa6d;
+//     }
+//   }
+// }
+
+/* @media (min-width:768px) and (max-width:992px) {
+
+
+
+ .teacher {
+   right: unset !important;
+   width: 50% !important;
+ }
+
+ .xinchao {
+   right: 35svw !important;
+   width: 25% !important;
+ }
+
+
+ .face {
+   top: -10px !important;
+   right: 15.5svw !important;
+   width: 7svw !important;
+ }
+
+ .hair {
+   top: unset !important;
+   left: 14svw !important;
+ }
+
+ .flower {
+   transform: translate(-35%, 170%) !important;
+ }
+} */
+
+@media (max-width:576px) {}

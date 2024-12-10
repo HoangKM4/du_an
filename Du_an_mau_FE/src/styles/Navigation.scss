@@ -1,0 +1,25 @@
+.navbar-brand {
+    color: white;
+
+    &:hover {
+        color: #ffeb55;
+    }
+}
+
+.navbar-collapse {
+    .nav-link {
+        color: white;
+
+        &:hover {
+            color: #ffeb55;
+        }
+    }
+}
+
+.navbar {
+    .form-control {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
